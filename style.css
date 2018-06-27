@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.window {
+  width: 500px;
+  /* height: 300px; */
+  margin: 20px auto;
+  overflow: hidden;
+}
+.images {
+  width:100%;
+  display: flex;
+  transition: all 1s;
+}
+.images > img {
+  width: 100%;
+  transition: all 1500ms;
+  top: 0;
+}
+.btns {
+  text-align: center;
+}
